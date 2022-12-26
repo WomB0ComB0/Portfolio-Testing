@@ -1,0 +1,53 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+* {overflow:hidden;scroll-behavior:smooth;margin:0;padding:0;box-sizing:border-box;font-family: 'Familjen Grotesk', sans-serif;transition:0.25s all ease;text-decoration: none;}/*I think I need the text decoration*/
+/*Variable CSS*/
+/*13293D(Dark blue) 006494(sea blue) 247BA0(light sea blue) 1B98E0(medium sky blue) E8F1F2(that one pixel in minecraft snow white, just white with a lot of blue noise)*//*Light color*/
+/*0A151F 00334A 123D4F 0E4B6F 559198*//*Dark color*/
+:root{
+    --header-height:3rem;
+    /*Colors*/
+    /*Chagne favorite color*/
+    --hue-color:250;
+    /*HSL color mode*/
+    --first-color:hsl(var(--hue-color),69%,61%);
+    --first-color-second:hsl(var(--hue-color),69%,61%);
+    --first-color-alt:hsl(var(--hue-color),57%,53%);
+    --first-color-lighter:hsl(var(--hue-color),92%,85%);
+    --title-color:hsl(var(--hue-color),8%,15%);
+    --text-color:hsl(var(--hue-color),8%,45%);
+    --text-color-light:hsl(var(--hue-color),8%,65%);
+    --input-color:hsl(var(--hue-color),70%,96%);
+    --body-color:hsl(var(--hue-color),60%,99%);
+    --container-color:#FFF;
+    /*Font and Typography*/
+    --body-font: ;/*What even is this?*/
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size:2rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1.125rem;
+    --normal-font-size:0.938rem;
+    --small-font-size:.813rem;
+    --smaller-font-size:.75rem;
+
+    /*Font weight*/
+    --font-medium:500;
+    --font-semi-bold:600;
+    /*Margenes Bottom*/
+    /*.25rem = 4px, .5rem =  8px, .75rem = 12px ... */
+    --mb-0-25:;
+    --mb-0-5:;
+    --mb-0-75:;
+    --mb-1:;
+    --mb-1-5:;
+    --mb-2:;
+    --mb-2-5:;
+    --mb-3:;
+    /*Z index*/
+    --z-tooltip:;
+    --z-fixed:;
+    --z-model:;
+}
+
+/*Font size for Large devices*/
