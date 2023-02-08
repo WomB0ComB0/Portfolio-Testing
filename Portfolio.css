@@ -36,18 +36,18 @@
     --font-semi-bold:600;
     /*Margenes Bottom*/
     /*.25rem = 4px, .5rem =  8px, .75rem = 12px ... */
-    --mb-0-25:;
+    /* --mb-0-25:;
     --mb-0-5:;
     --mb-0-75:;
     --mb-1:;
     --mb-1-5:;
     --mb-2:;
     --mb-2-5:;
-    --mb-3:;
+    --mb-3:; */
     /*Z index*/
-    --z-tooltip:;
+    /* --z-tooltip:;
     --z-fixed:;
-    --z-model:;
+    --z-model:; */
 }
 
 /*Font size for Large devices*/
